@@ -119,7 +119,4 @@ Também houve perda de pacotes nos testes externos. Como os testes locais funcio
 ## 7. Conclusão
 
 Com esta atividade, consegui identificar os endereços de rede do Mint e do Ubuntu Server e entender melhor a função do IP, da máscara, do MAC e do gateway.
-
-Os testes mostraram que a comunicação entre o sistema principal e a máquina virtual funciona pela rede NAT do libvirt. Também observei que os testes externos tiveram alguma perda de pacotes e que o `traceroute` não recebeu resposta de todos os saltos.
-
-Por fim, aprendi que a configuração da rede virtual influencia a comunicação entre a VM, o sistema principal e a internet.
+Os testes mostraram que a comunicação entre o sistema principal e a máquina virtual funciona pela rede NAT do libvirt. Também observei que os testes externos tiveram alguma perda de pacotes e que o `traceroute` não recebeu resposta de todos os saltos. Infezlimente não conseguir completar do Nat x bridge pois houve perda de pactoes
